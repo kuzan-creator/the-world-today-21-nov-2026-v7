@@ -6,7 +6,9 @@ v7 keeps the restored first-v5 design (red banner headline, stat badge and
 source caption inside each hero picture, coloured tag strips, real-continent
 map) and shifts the 'Also on Saturday' list left so stories 14-28 no longer
 touch stories 29-43: the map is 270x135 and the list starts at x=296 with
-360px between columns."""
+360px between columns. Measured gaps after rendering: the longest story in
+the 14-28 column ends at x=634, the 29-43 column starts at x=656, so the
+narrowest gap is 22px and nothing touches."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
